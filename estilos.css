@@ -1,0 +1,161 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f6f2f4;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px;
+background:#e7cfd5;
+}
+
+nav a{
+margin:10px;
+text-decoration:none;
+color:black;
+font-weight:bold;
+}
+
+.principal{
+display:flex;
+align-items:center;
+justify-content:space-around;
+padding:60px;
+background:white;
+}
+
+.texto-principal{
+width:40%;
+}
+
+.texto-principal h1{
+font-size:40px;
+}
+
+.texto-principal button{
+padding:10px 20px;
+background:#c89ca5;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.imagen-principal img{
+width:350px;
+border-radius:10px;
+}
+
+.info{
+text-align:center;
+padding:50px;
+background:#e7cfd5;
+}
+
+.info button{
+padding:10px 20px;
+background:#c89ca5;
+border:none;
+color:white;
+}
+
+.ayuda{
+display:flex;
+justify-content:space-around;
+align-items:center;
+padding:60px;
+background:white;
+}
+
+.imagen-ayuda img{
+width:300px;
+border-radius:10px;
+}
+
+.texto-ayuda{
+width:40%;
+}
+
+.texto-ayuda button{
+padding:10px 20px;
+background:#c89ca5;
+border:none;
+color:white;
+}
+
+.servicios{
+text-align:center;
+padding:60px;
+background:#f0e1e5;
+}
+
+.contenedor-servicios{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+.contenedor-servicios {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: #f5f5f5;
+    padding: 20px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* CLAVE */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    flex-grow: 1; /* CLAVE: alinea todas las descripciones */
+}
+
+.card button {
+    background: #c48b95;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenedor-servicios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* SIEMPRE 3 columnas */
+    gap: 30px;
+    padding: 20px;
+}
+
+.card {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card p {
+    flex-grow: 1;
+}
